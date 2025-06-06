@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Engineering Programs</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container {
+      width: 240px;
+      height: 380px;
+      background: #3a4a6d;
+      border-radius: 240px 240px 0 0;
+      padding: 25px 15px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .box {
+      width: 90%;
+      text-align: center;
+      font-weight: bold;
+      font-size: 26px;
+      padding: 22px 0;
+      color: white;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+      transition: transform 0.3s ease;
+    }
+
+    .box:hover {
+      transform: translateY(-5px);
+    }
+
+    .cse {
+      background-color: #3498db;
+    }
+
+    .ece {
+      background-color: #9b59b6;
+    }
+
+    .mech {
+      background-color: #e74c3c;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box cse">CSE</div>
+    <div class="box ece">ECE</div>
+    <div class="box mech">ME</div>
+  </div>
+</body>
+</html>
